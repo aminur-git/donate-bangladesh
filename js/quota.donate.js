@@ -1,8 +1,8 @@
 document
-  .getElementById("feni-donate-btn")
+  .getElementById("quota-donate-btn")
   .addEventListener("click", function () {
-    const fundBalance = getTextStringAsNumberByID("feni-fund-balance");
-    const getDonated = getInputStringAsNumberByID("feni-donate-ammount");
+    const fundBalance = getTextStringAsNumberByID("quota-fund-balance");
+    const getDonated = getInputStringAsNumberByID("quota-donate-ammount");
 
     const currentBalance = getTextStringAsNumberByID("current-balance");
     const historyContainer = document.getElementById("history-card-show");
@@ -11,16 +11,16 @@ document
       document.getElementById("current-balance").innerText = newBalance;
 
       const newFundBalance = fundBalance + getDonated;
-      document.getElementById("feni-fund-balance").innerText = newFundBalance;
+      document.getElementById("quota-fund-balance").innerText = newFundBalance;
 
-      const title = document.getElementById("feni-title").innerText;
+      const title = document.getElementById("quota-title").innerText;
       const div = document.createElement("div");
       div.innerHTML = `     <div>
                                 <h1 class="text-xl font-semibold pb-3">
                                     ${getDonated} Taka is Donated for "${title}"
                                 </h1>
                                 <p class="text-grayLight text-sm py-1 px-2 bg-gray-50 ">
-                                    ${timeFormatted()}
+                                ${timeFormatted()}
                                 </p>
                             </div>
       `;

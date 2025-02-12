@@ -219,11 +219,11 @@
                                     <div
                                         class="flex justify-center items-center gap-2 text-sm bg-coinBG px-4 py-3 max-w-40 rounded-lg">
                                         <img src="assets/coin.png" alt="" />
-                                        <p><span>257850 </span>BDT</p>
+                                        <p><span id="quota-fund-balance">257850 </span>BDT</p>
                                     </div>
 
                                     <div class="space-y-4">
-                                        <h2 class="card-title text-xl font-bold">
+                                        <h2 id="quota-title" class="card-title text-xl font-bold">
                                             Aid for Injured in the Quota Movement
                                         </h2>
                                         <p class="pb-3 text-grayLight text-base font-light">
@@ -240,9 +240,9 @@
                                         </p>
                                     </div>
                                     <div class="flex flex-col gap-4">
-                                        <input type="text" placeholder="Enter Donation Ammount here"
+                                        <input id="quota-donate-ammount" type="text" placeholder="Enter Donation Ammount here"
                                             class="input input-bordered w-full" />
-                                        <button
+                                        <button id="quota-donate-btn"
                                             class="donate-now btn bg-btPrimary hover:bg-lime-400 text-sm font-semibold px-8 w-full">
                                             Donate Now
                                         </button>
@@ -265,10 +265,14 @@
         <!-- Body End -->
     </main>
 
+    <script>
+        
+    </script>
     <script src="js/features.js"></script>
     <script src="js/utilities.js"></script>
     <script src="js/noakhali-donate-btn.js"></script>
     <script src="js/feni-donate-btn.js"></script>
+    <script src="js/quota.donate.js"></script>
     <script src="js/pop-up.js"></script>
 </body>
 
