@@ -5,17 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - Donate Bangladesh</title>
-    <!-- Icon -->
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+
+    <!-- fav:icon -->
+     <link rel="shortcut icon" href="assets/faq.png" type="image/x-icon">
+    
 
     <!-- Daisy and Nav -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font -->
+    <!-- Font lexend -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
-
+    <!-- hindShiliguri -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <!-- tailwind custom css -->
     <script>
         tailwind.config = {
@@ -37,12 +43,15 @@
         .lexend {
             font-family: "Lexend", serif;
         }
+        .bangla{
+            font-family: "Hind Siliguri", serif;
+        }
     </style>
 
 </head>
 
 <body>
-    <main class="lexend max-w-[1440] mx-auto">
+    <main class="lexend max-w-[1440] mx-auto lexend">
 
         <div class="bg-navColor">
             <!-- Nav Start -->
@@ -66,6 +75,45 @@
                 </div>
             </div>
             <!-- nav end -->
+
+            <!-- body section -->
+            <section class="px-32 bg-white bangla">
+                <!-- Faq container -->
+                <div class="pt-8 max-w-[1280px] mx-auto">
+                    <div class="flex justify-center items-center gap-8">
+                        <img class="w-1/4" src="assets/faq-large.png" alt="">
+                        <div class="py-8">
+                            <h1 class=" text-center text-4xl font-semibold">আপনার</h1>
+                            <h1 class=" text-center text-8xl font-semibold text-[#38a1ff]">জিজ্ঞাসা</h1>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div class="join join-vertical w-full">
+                            <div class="border rounded-none p-4">
+                                <div class="collapse collapse-arrow join-item border-base-300 border rounded-t-lg">
+                                    <input type="radio" name="my-accordion-4" checked="checked" />
+                                    <div class="collapse-title text-xl font-medium">ওয়েবসাইট টি কিভাবে কাজ করছে?
+                                    </div>
+                                    <div class="collapse-content font-thin">
+                                        <p>এটি একটি ডামি ওয়েবসাইট। ওয়েবসাইটটিতে মুলত জাভাস্ক্রিপ্ট এর মাধ্যমে বিভিন্ন প্রবলেম সলভিং করে রিয়েল-লাইফ এ কেমন হতে পারে তা দেখানোর চেষ্টা করেছি। </p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-arrow join-item border-base-300 border rounded-t-lg mt-2">
+                                    <input type="radio" name="my-accordion-4"/>
+                                    <div class="collapse-title text-xl font-medium">ওয়েবসাইট টি কিভাবে কাজ করছে?
+                                    </div>
+                                    <div class="collapse-content font-thin">
+                                        <p>এটি একটি ডামি ওয়েবসাইট। ওয়েবসাইটটিতে মুলত জাভাস্ক্রিপ্ট এর মাধ্যমে বিভিন্ন প্রবলেম সলভিং করে রিয়েল-লাইফ এ কেমন হতে পারে তা দেখানোর চেষ্টা করেছি। </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
 
             <script src="js/blog-.js">
 
