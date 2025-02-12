@@ -34,10 +34,11 @@ document
       );
       historyContainer.appendChild(div);
 
-      document.getElementById('noakhali-donate-ammount').value = '';
+      document.getElementById("noakhali-donate-ammount").value = "";
 
       return popUp("alert-success", "success-popUp-close");
     } else {
+      document.getElementById("noakhali-donate-ammount").value = "";
       return popUp("alert-failed", "failed-popUp-close");
     }
   });

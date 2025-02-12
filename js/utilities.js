@@ -55,4 +55,3 @@ function timeFormatted() {
 
   return `Date : ${formattedDate} ${timeZone} (${timeZoneName})`;
 }
-

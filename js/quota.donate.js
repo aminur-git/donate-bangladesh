@@ -32,10 +32,11 @@ document
         "shadow-sm"
       );
       historyContainer.appendChild(div);
-      document.getElementById('quota-donate-ammount').value = '';
+      document.getElementById("quota-donate-ammount").value = "";
 
       return popUp("alert-success", "success-popUp-close");
     } else {
+      document.getElementById("quota-donate-ammount").value = "";
       return popUp("alert-failed", "failed-popUp-close");
     }
   });
