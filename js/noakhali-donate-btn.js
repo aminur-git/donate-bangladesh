@@ -34,6 +34,8 @@ document
       );
       historyContainer.appendChild(div);
 
+      document.getElementById('noakhali-donate-ammount').value = '';
+
       return popUp("alert-success", "success-popUp-close");
     } else {
       return popUp("alert-failed", "failed-popUp-close");

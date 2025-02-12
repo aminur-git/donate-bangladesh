@@ -32,6 +32,7 @@ document
         "shadow-sm"
       );
       historyContainer.appendChild(div);
+      document.getElementById('feni-donate-ammount').value = '';
 
       return popUp("alert-success", "success-popUp-close");
     } else {
