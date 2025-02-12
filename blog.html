@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Donate Bangladesh</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+
+    <!-- Daisy and Nav -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- tailwind custom css -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navColor: "#f9f7f3",
+                        btPrimary: "#B4F461",
+                        grayLight: "#111111B3",
+                        coinBG: "#1111110D",
+                    },
+                },
+            },
+        };
+    </script>
+
+    <!-- Css-Styles -->
+    <style>
+        .lexend {
+            font-family: "Lexend", serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main class="lexend max-w-[1440] mx-auto">
+
+        <div class="bg-navColor">
+            <!-- Nav Start -->
+            <div class="px-32 py-4">
+                <div class="navbar">
+                    <div class="navbar-start">
+                        <button id="goTo-home" class="btn bg-btPrimary hover:bg-lime-400 text-base font-semibold px-8">
+                            Home
+                        </button>
+                    </div>
+                    <div class="navbar-center gap-2 justify-between items-center">
+                        <img class="max-w-8" src="assets/logo.png" alt="" />
+                        <p class="font-bold text-2xl">Donate Bangladesh</p>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="flex justify-center items-center gap-2 text-grayLight font-medium text-xl">
+                            <img src="assets/coin.png" alt="" />
+                            <p><span id="current-balance">5500 </span>BDT.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- nav end -->
+
+            <script src="js/blog-.js">
+             
+            </script>
+            
+</body>
+
+</html>

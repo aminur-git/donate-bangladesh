@@ -16,7 +16,6 @@ function popUp(id, id2) {
   });
 }
 
-
 // ========================= Time Formate ======================================
 
 function timeFormatted() {
@@ -25,7 +24,10 @@ function timeFormatted() {
   // Get timezone offset in minutes
   const offset = -date.getTimezoneOffset();
   const sign = offset >= 0 ? "+" : "-";
-  const hoursOffset = String(Math.floor(Math.abs(offset) / 60)).padStart(2, "0");
+  const hoursOffset = String(Math.floor(Math.abs(offset) / 60)).padStart(
+    2,
+    "0"
+  );
   const minutesOffset = String(Math.abs(offset) % 60).padStart(2, "0");
 
   // Get formatted time zone (e.g., GMT+0600)
@@ -44,9 +46,7 @@ function timeFormatted() {
   };
 
   // Format the date string
-  const formattedDate = date
-    .toLocaleString("en-US", options)
-    .replace(",", "");
+  const formattedDate = date.toLocaleString("en-US", options).replace(",", "");
 
   // Get full timezone name
   const timeZoneName = Intl.DateTimeFormat("en-US", { timeZoneName: "long" })
@@ -55,5 +55,4 @@ function timeFormatted() {
 
   return `Date : ${formattedDate} ${timeZone} (${timeZoneName})`;
 }
-
 
