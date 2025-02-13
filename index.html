@@ -91,25 +91,62 @@
         </div>
 
         <div class="">
-            <!-- Nav Start -->
-            <div class="px-32 py-4">
-                <div class="navbar">
+            <div class=" lg:px-32 py-4">
+                <!--Small Nav Start -->
+                <div class="px-3 sm:hidden">
+                   
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <div class="sm:hidden flex  justify-start items-center gap-2 ">
+                                    <img class="max-w-9" src="assets/logo.png" alt="" />
+                                    <div>
+                                        <p class="font-bold  lg:text-2xl">Donate Bangladesh</p>
+                                        <div
+                                            class="flex justify-start items-center gap-1 text-grayLight font-medium  text-xs  lg:text-xl">
+                                            <img class="max-w-5" src="assets/coin.png" alt="" />
+                                            
+                                            <p><span id="current-balance">5500 </span>BDT.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="max-w-52">
+                                    
+                                </div>
+                            </div>
+                            <div class="">
+                                <button id="goTo-blog"
+                                    class="btn  rounded-sm bg-btPrimary btn-md  hover:bg-lime-400  lg:text-base font-semibold px-4">
+                                    Blog
+                                </button>
+                            </div>
+                        
+                    </div>
+
+                </div>
+
+                <!-- Small navBar end -->
+
+                <!-- Nav start -->
+                <div class="navbar hidden sm:flex">
                     <div class="navbar-start">
-                        <button id="goTo-blog" class="btn bg-btPrimary hover:bg-lime-400 text-base font-semibold px-8">
+                        <button id="goTo-blog"
+                            class="btn bg-btPrimary hover:bg-lime-400  lg:text-base font-semibold px-8">
                             Blog
                         </button>
                     </div>
-                    <div class="navbar-center gap-2 justify-between items-center">
+                    <div class="navbar-center gap-2 justify-between  md:flex-row items-center ">
                         <img class="max-w-8" src="assets/logo.png" alt="" />
                         <p class="font-bold text-2xl">Donate Bangladesh</p>
                     </div>
                     <div class="navbar-end">
-                        <div class="flex justify-center items-center gap-2 text-grayLight font-medium text-xl">
+                        <div
+                            class="flex justify-center items-center gap-2 text-grayLight font-medium text-sm lg:text-xl">
                             <img src="assets/coin.png" alt="" />
                             <p><span id="current-balance">5500 </span>BDT.</p>
                         </div>
                     </div>
                 </div>
+
             </div>
             <!-- nav end -->
 
