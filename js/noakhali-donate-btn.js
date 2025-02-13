@@ -9,6 +9,7 @@ document
     if (getDonated > 0 && getDonated < currentBalance) {
       const newBalance = currentBalance - getDonated;
       document.getElementById("current-balance").innerText = newBalance;
+      document.getElementById("current-balance-nav").innerText = newBalance;
 
       const newFundBalance = fundBalance + getDonated;
       document.getElementById("noakhali-fund-balance").innerText =

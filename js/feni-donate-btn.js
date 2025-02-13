@@ -12,6 +12,7 @@ document
 
       const newFundBalance = fundBalance + getDonated;
       document.getElementById("feni-fund-balance").innerText = newFundBalance;
+      document.getElementById("current-balance-nav").innerText = newBalance;
 
       const title = document.getElementById("feni-title").innerText;
       const div = document.createElement("div");

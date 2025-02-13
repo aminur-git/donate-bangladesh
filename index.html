@@ -141,7 +141,7 @@
                         <div
                             class="flex justify-center items-center gap-2 text-grayLight font-medium text-sm md:text-base lg:text-xl">
                             <img src="assets/coin.png" alt="" />
-                            <p><span id="current-balance">5500 </span>BDT.</p>
+                            <p><span id="current-balance-nav">5500 </span>BDT.</p>
                         </div>
                     </div>
                 </div>
@@ -169,131 +169,152 @@
                     <!-- Cards-Container -->
 
                     <div id="donation-card-show" class="max-w-[1280px] mx-auto">
-                        <div class="flex flex-col  px-3 sm:px-3">
+                        <div class="flex flex-col gap-6 px-3 sm:px-3">
                             <!-- card-1 -->
                             <div
-                                class="flex flex-col lg:flex-row justify-evenly items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-8 bg-base-100 border border-gray-200 rounded-2xl p-3 xl:p-8 shadow-md">
-                                <div class="flex-1 ">
-                                    <img class="w-full   shadow-inner" src="assets/noakhali.png"/>
+                                class="flex flex-col md:flex-row justify-evenly items-stretch gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-8 bg-base-100 border border-gray-200 rounded-2xl p-3 xl:p-8 shadow-md">
+                                <div class="flex-1 w-full">
+                                    <img class="shadow-inner w-full" src="assets/noakhali.png" />
                                 </div>
 
-                                <div class="space-y-3 flex flex-col justify-between flex-1">
-                                    <div
-                                        class="flex justify-start items-center gap-1 ">
-                                        <div class="flex justify-center items-center gap-1 bg-coinBG px-2 py-1 rounded-md  text-xs sm:text-sm md:text-base xl:text-xl sm:px-3 sm:py-2 md:px-4 md:py-3 lg:px-5 lg:py-4 xl:px-6 xl:py-5">
+                                <div class="space-y-3 flex flex-col justify-between  flex-1  ">
+                                    <div class="flex justify-start items-center gap-1 ">
+                                        <div
+                                            class="flex justify-center items-center gap-1 bg-coinBG px-2 py-1 rounded-md  text-xs sm:text-sm md:text-sm xl:text-xl sm:px-3 sm:py-2 md:px-2 md:py-1 lg:px-5 lg:py-4 xl:px-6 xl:py-5">
 
                                             <img class="w-6" src="assets/coin.png" alt="" />
-                                            <p class="text-xs"><span id="noakhali-fund-balance">185500 </span>BDT</p>
+                                            <p class="text-xs md:text-sm"><span id="noakhali-fund-balance">125620
+                                                </span>BDT</p>
                                         </div>
                                     </div>
 
-                                    <div class="space-y-2">
-                                        <h2 id="noakhali-title" class="card-title text-sm sm:text-lg md:text-xl font-bold">
+                                    <div class="space-y-2 ">
+                                        <h2 id="noakhali-title"
+                                            class="card-title text-sm sm:text-base md:text-base lg:text-xl font-bold">
                                             Donate for Flood at Noakhali, Bangladesh
                                         </h2>
-                                        <p class="text-grayLight text-xs font-light">
-                                            The recent floods in Noakhali have caused significant
-                                            damage to homes infrastructure. Your donation will help
-                                            provide essential supplies and to those affected by this
-                                            disaster. Every contribution, big or small, makes
-                                            difference. Please join us in supporting the relief
-                                            efforts and making a positive impact on the lives of
-                                            those in need.
-                                        </p>
+                                        <div class="pr-4">
+                                            <p class="text-grayLight text-xs md:text-sm lg:text-base font-light ">
+                                                The recent floods in Noakhali have caused significant
+                                                damage to homes infrastructure. Your donation will help
+                                                provide essential supplies and to those affected by this
+                                                disaster. Every contribution, big or small, makes
+                                                difference. Please join us in supporting the relief
+                                                efforts and making a positive impact on the lives of
+                                                those in need.
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div class="flex  gap-2 text-xs">
+                                    <div class="flex flex-row md:flex-col gap-2  ">
                                         <input id="noakhali-donate-ammount" type="text"
                                             placeholder="Enter Donation Amount here"
-                                            class="input input-bordered w-full text-xs" />
+                                            class="input input-bordered w-full text-xs lg:text-sm" />
                                         <button id="noakhali-donate-btn"
-                                            class="btn bg-btPrimary hover:bg-lime-400 text-xs font-semibold px-4 ">
+                                            class="btn bg-btPrimary hover:bg-lime-400 text-xs lg:text-sm font-semibold px-4 ">
                                             Donate Now
                                         </button>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- 
-                            <div
-                                class="flex justify-evenly gap-8 bg-base-100 border border-gray-200 rounded-2xl p-8 shadow-sm">
-                                <img class="w-full" src="assets/feni.png" />
 
-                                <div class="space-y-3 flex flex-col justify-between">
-                                    <div
-                                        class="flex justify-center items-center gap-1 text-sm bg-coinBG px-4 py-3 max-w-40 rounded-lg">
-                                        <img src="assets/coin.png" alt="" />
-                                        <p><span id="feni-fund-balance">80500 </span>BDT</p>
+
+                            <!-- card-2 -->
+                            <div
+                                class="flex flex-col md:flex-row justify-evenly items-stretch gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-8 bg-base-100 border border-gray-200 rounded-2xl p-3 xl:p-8 shadow-md">
+                                <div class="flex-1 w-full">
+                                    <img class="shadow-inner w-full" src="assets/feni.png" />
+                                </div>
+
+                                <div class="space-y-3 flex flex-col justify-between  flex-1  ">
+                                    <div class="flex justify-start items-center gap-1 ">
+                                        <div
+                                            class="flex justify-center items-center gap-1 bg-coinBG px-2 py-1 rounded-md  text-xs sm:text-sm md:text-sm xl:text-xl sm:px-3 sm:py-2 md:px-2 md:py-1 lg:px-5 lg:py-4 xl:px-6 xl:py-5">
+
+                                            <img class="w-6" src="assets/coin.png" alt="" />
+                                            <p class="text-xs md:text-sm"><span id="feni-fund-balance">80560
+                                                </span>BDT</p>
+                                        </div>
                                     </div>
 
-                                    <div class="space-y-4">
-                                        <h2 id="feni-title" class="card-title text-xl font-bold">
+                                    <div class="space-y-2 ">
+                                        <h2 id="feni-title"
+                                            class="card-title text-sm sm:text-base md:text-base lg:text-xl font-bold">
                                             Donate for Flood Relief in Feni,Bangladesh
                                         </h2>
-                                        <p class="pb-3 text-grayLight text-base font-light">
-                                            The recent floods in Feni have devastated local
-                                            communities, leading to severe disruption and loss. Your
-                                            generous donation will help provide immediate aid,
-                                            including food, clean water, and medical supplies, to
-                                            those affected by this calamity. Together, we can offer
-                                            crucial support and help rebuild lives in the aftermath
-                                            of this disaster. Every contribution counts towards
-                                            making a real difference. Please consider donating today
-                                            to assist those in urgent need.
-                                        </p>
+                                        <div class="pr-4">
+                                            <p class="text-grayLight text-xs md:text-sm lg:text-base font-light ">
+                                                The recent floods in Feni have devastated local communities, leading to
+                                                severe disruption and loss. Your generous donation will help provide
+                                                immediate aid, including food, clean water, and medical supplies, to
+                                                those affected by this calamity. Together, we can offer crucial support
+                                                and help rebuild lives in the aftermath of this disaster. Every
+                                                contribution counts towards making a real difference. Please consider
+                                                donating today to assist those in urgent need.
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div class="flex flex-col gap-4">
+                                    <div class="flex flex-row md:flex-col gap-2  ">
                                         <input id="feni-donate-ammount" type="text"
-                                            placeholder="Enter Donation Ammount here"
-                                            class="input input-bordered w-full" />
+                                            placeholder="Enter Donation Amount here"
+                                            class="input input-bordered w-full text-xs lg:text-sm" />
                                         <button id="feni-donate-btn"
-                                            class="btn bg-btPrimary hover:bg-lime-400 text-sm font-semibold px-8 w-full">
+                                            class="btn bg-btPrimary hover:bg-lime-400 text-xs lg:text-sm font-semibold px-4 ">
                                             Donate Now
                                         </button>
                                     </div>
                                 </div>
                             </div>
 
-                            
-                            <div
-                                class="flex justify-evenly gap-8 bg-base-100 border border-gray-200 rounded-2xl p-8 shadow-sm">
-                                <img class="w-full" src="assets/quota-protest.png" />
 
-                                <div class="space-y-3 flex flex-col justify-between">
-                                    <div
-                                        class="flex justify-center items-center gap-1 text-sm bg-coinBG px-4 py-3 max-w-40 rounded-lg">
-                                        <img src="assets/coin.png" alt="" />
-                                        <p><span id="quota-fund-balance">257850 </span>BDT</p>
+                            <!-- card-3 -->
+                            <div
+                                class="flex flex-col md:flex-row justify-evenly items-stretch gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-8 bg-base-100 border border-gray-200 rounded-2xl p-3 xl:p-8 shadow-md">
+                                <div class="flex-1 w-full">
+                                    <img class="shadow-inner w-full" src="assets/quota-protest.png" />
+                                </div>
+
+                                <div class="space-y-3 flex flex-col justify-between  flex-1  ">
+                                    <div class="flex justify-start items-center gap-1 ">
+                                        <div
+                                            class="flex justify-center items-center gap-1 bg-coinBG px-2 py-1 rounded-md  text-xs sm:text-sm md:text-sm xl:text-xl sm:px-3 sm:py-2 md:px-2 md:py-1 lg:px-5 lg:py-4 xl:px-6 xl:py-5">
+
+                                            <img class="w-6" src="assets/coin.png" alt="" />
+                                            <p class="text-xs md:text-sm"><span id="quota-fund-balance">201500
+                                                </span>BDT</p>
+                                        </div>
                                     </div>
 
-                                    <div class="space-y-4">
-                                        <h2 id="quota-title" class="card-title text-xl font-bold">
+                                    <div class="space-y-2 ">
+                                        <h2 id="quota-title"
+                                            class="card-title text-sm sm:text-base md:text-base lg:text-xl font-bold">
                                             Aid for Injured in the Quota Movement
                                         </h2>
-                                        <p class="pb-3 text-grayLight text-base font-light">
-                                            The recent Quota movement has resulted in numerous
-                                            injuries and significant hardship for many individuals.
-                                            Your support is crucial in providing medical assistance,
-                                            rehabilitation, and necessary supplies to those
-                                            affected. By contributing, you help ensure that injured
-                                            individuals receive the care and support they need
-                                            during this challenging time. Every donation plays a
-                                            vital role in alleviating their suffering and aiding in
-                                            their recovery. Please consider making a donation to
-                                            support these brave individuals in their time of need.
-                                        </p>
+                                        <div class="pr-4">
+                                            <p class="text-grayLight text-xs md:text-sm lg:text-base font-light ">
+                                                The recent Quota movement has resulted in numerous injuries and
+                                                significant hardship for many individuals. Your support is crucial in
+                                                providing medical assistance, rehabilitation, and necessary supplies to
+                                                those affected. By contributing, you help ensure that injured
+                                                individuals receive the care and support they need during this
+                                                challenging time. Every donation plays a vital role in alleviating their
+                                                suffering and aiding in their recovery. Please consider making a
+                                                donation to support these brave individuals in their time of need.
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div class="flex flex-col gap-4">
+                                    <div class="flex flex-row md:flex-col gap-2  ">
                                         <input id="quota-donate-ammount" type="text"
-                                            placeholder="Enter Donation Ammount here"
-                                            class="input input-bordered w-full" />
+                                            placeholder="Enter Donation Amount here"
+                                            class="input input-bordered w-full text-xs lg:text-sm" />
                                         <button id="quota-donate-btn"
-                                            class="donate-now btn bg-btPrimary hover:bg-lime-400 text-sm font-semibold px-8 w-full">
+                                            class="btn bg-btPrimary hover:bg-lime-400 text-xs lg:text-sm font-semibold px-4 ">
                                             Donate Now
                                         </button>
                                     </div>
                                 </div>
                             </div>
-                            -->
+
                         </div>
                     </div>
 
@@ -311,7 +332,7 @@
     </main>
 
     <script>
-
+       
     </script>
     <script src="js/features.js"></script>
     <script src="js/utilities.js"></script>
